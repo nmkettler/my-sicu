@@ -1,0 +1,141 @@
+.main-tripit-menu {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    color: rgb(255, 255, 255);
+    z-index: 15;
+    height: 90px;
+    overflow: visible;
+}
+
+.main-tripit-menu .tripit_logo {
+    display:inline-block;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.main-tripit-menu .main-nav-items {
+    float: right;
+}
+
+.main-tripit-menu .main-nav-items .sub-menu-parent {
+    margin: 28px 12px;
+    display: inline-block;
+    color: #000;
+}
+
+
+
+.main-tripit-menu .header-item {
+    font-size: 16px;
+    line-height: 40px;
+    cursor: pointer;
+    color: #444;
+    font-weight: 700;
+    text-decoration:none;
+}
+
+.main-tripit-menu .header-item:hover {
+    color: #b3b6bf;
+}
+
+@media (max-width: 1200px) { 
+    .main-tripit-menu .tripit_logo {
+        display:inline-block;
+        margin-top: 24px;
+        margin-left: -10px;
+        width: 136px;
+    }
+
+    .main-tripit-menu .tripit_logo img {
+        width: 80%;
+    }
+
+    .main-tripit-menu .header-item {
+        margin:10px 0;
+        font-size: 14px;
+        line-height: 40px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width: 1000px) { 
+    .main-tripit-menu .tripit_logo {
+        display:inline-block;
+        margin-top: 28px;
+        margin-left: -10px;
+        width: 136px;
+    }
+
+    .main-tripit-menu .tripit_logo img {
+        width: 70%;
+    }
+
+    .main-tripit-menu .header-item {
+        color: #fff;
+        margin:10px 0;
+        font-size: 10px;
+        line-height: 40px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width: 800px) {    
+
+    .main-tripit-menu {
+        display: none;
+    }
+
+}
+
+/* *********** Upper Header ***************** */
+
+.tripit_header {
+  height:485px;
+  background: url("https://assets.concur.com/images/us/bg-home-hero.jpg");
+
+}
+
+.tripit_header #header_content {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.tripit_header .header-buttons {
+    margin-top: 60px;
+}
+
+.tripit_header .header-buttons img {
+    margin-left: 10px;
+}
+
+.tripit_header #header_content > .t-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.t-center > a {
+    margin-top: 30px;
+}
+
+.tripit_home_header .t-center {
+    margin-top: 60px;
+}
+
+.tripit_home_header .phone-image {
+    margin: 40px 0;
+}
+
+@media (max-width: 600px) {    
+
+    .tripit_header .header-buttons img {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+}
