@@ -1,7 +1,9 @@
 ## My-SICU Website
 
-##Installing
+## Installing
+
 Clone into a directory of your choice
+
 `git clone`
 
 Change directories into the recently cloned repo
