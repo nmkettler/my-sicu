@@ -6,12 +6,12 @@ import './App.css';
 class Main extends Component {
     render(){
         return(
-            <div className="main-tripit-menu">
+            <div className="main-sicu-menu">
                 <div className="container">
                     <div className="col-md-12">
                         <div className="col-sm-4">
-                            <Link to="/" className="tripit_logo">
-                                <img src="https://assets.concur.com/tripit/logo-tripit.png" />
+                            <Link to="/" className="sicu_logo">
+                                <img src="http://via.placeholder.com/350x150" divStyle="width:40%;"/>
                             </Link>
                         </div>
                         <div className="col-sm-8 flush-xs">

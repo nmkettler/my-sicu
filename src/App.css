@@ -1,4 +1,76 @@
-.main-tripit-menu {
+body,
+body  input,
+body button,
+body select,
+body li,
+body p,
+body span {
+    color: #666;
+    font-family: "proxima-nova", sans-serif !important;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+    text-transform: none;
+    color: #333;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+body h1 {
+    color: #FFF; font-size: 42px;
+}
+
+body h2 {
+    font-size: 32px;
+}
+
+body h3 {
+    font-size: 22px;
+}
+
+body h4 {
+    font-size: 22px !important;
+}
+
+body h2.alt{
+    color: #0782c5;
+}
+
+body p.alt{
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+@media (max-width: 767px) {
+    body h1 {
+        font-size: 35px;
+    }
+    body h2 {
+        font-size: 26px;
+    }
+    body h3 {
+        font-size: 20px;
+    }
+    body p {
+        font-size: 16px;        
+    }
+    body p.alt {
+        font-size: 18px;        
+    }
+}
+
+/* Text Classes ------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------- */
+
+.main-sicu-menu {
     width: 100%;
     position: relative;
     background-color: #fff;
@@ -8,17 +80,20 @@
     overflow: visible;
 }
 
-.main-tripit-menu .tripit_logo {
+.main-sicu-menu .sicu_logo {
     display:inline-block;
     margin-top: 15px;
     margin-left: -15px;
 }
+.main-sicu-menu .sicu_logo img{
+    width: 40%;
+}
 
-.main-tripit-menu .main-nav-items {
+.main-sicu-menu .main-nav-items {
     float: right;
 }
 
-.main-tripit-menu .main-nav-items .sub-menu-parent {
+.main-sicu-menu .main-nav-items .sub-menu-parent {
     margin: 28px 12px;
     display: inline-block;
     color: #000;
@@ -26,7 +101,7 @@
 
 
 
-.main-tripit-menu .header-item {
+.main-sicu-menu .header-item {
     font-size: 16px;
     line-height: 40px;
     cursor: pointer;
@@ -35,23 +110,23 @@
     text-decoration:none;
 }
 
-.main-tripit-menu .header-item:hover {
+.main-sicu-menu .header-item:hover {
     color: #b3b6bf;
 }
 
 @media (max-width: 1200px) { 
-    .main-tripit-menu .tripit_logo {
+    .main-sicu-menu .sicu_logo {
         display:inline-block;
         margin-top: 24px;
         margin-left: -10px;
         width: 136px;
     }
 
-    .main-tripit-menu .tripit_logo img {
-        width: 80%;
+    .main-sicu-menu .sicu_logo img {
+        width: 40%;
     }
 
-    .main-tripit-menu .header-item {
+    .main-sicu-menu .header-item {
         margin:10px 0;
         font-size: 14px;
         line-height: 40px;
@@ -62,18 +137,18 @@
 }
 
 @media (max-width: 1000px) { 
-    .main-tripit-menu .tripit_logo {
+    .main-sicu-menu .sicu_logo {
         display:inline-block;
         margin-top: 28px;
         margin-left: -10px;
         width: 136px;
     }
 
-    .main-tripit-menu .tripit_logo img {
+    .main-sicu-menu .sicu_logo img {
         width: 70%;
     }
 
-    .main-tripit-menu .header-item {
+    .main-sicu-menu .header-item {
         color: #fff;
         margin:10px 0;
         font-size: 10px;
@@ -86,7 +161,7 @@
 
 @media (max-width: 800px) {    
 
-    .main-tripit-menu {
+    .main-sicu-menu {
         display: none;
     }
 
@@ -94,27 +169,34 @@
 
 /* *********** Upper Header ***************** */
 
-.tripit_header {
-  height:485px;
-  background: url("https://assets.concur.com/images/us/bg-home-hero.jpg");
-
+.sicu_header {
+  height:300px;
+  /*background: url("https://static.pexels.com/photos/42273/doctor-medical-medicine-health-42273.jpeg");*/
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
-.tripit_header #header_content {
+.sicu_header h1 {
+    color: #ff5a5f;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.sicu_header #header_content {
     display: table;
     height: 100%;
     width: 100%;
 }
 
-.tripit_header .header-buttons {
+.sicu_header .header-buttons {
     margin-top: 60px;
 }
 
-.tripit_header .header-buttons img {
+.sicu_header .header-buttons img {
     margin-left: 10px;
 }
 
-.tripit_header #header_content > .t-center {
+.sicu_header #header_content > .t-center {
     display: table-cell;
     vertical-align: middle;
 }
@@ -123,17 +205,23 @@
     margin-top: 30px;
 }
 
-.tripit_home_header .t-center {
+.sicu_home_header .t-center {
     margin-top: 60px;
+
 }
 
-.tripit_home_header .phone-image {
+.sicu_home_header .phone-image {
     margin: 40px 0;
+    float: right;
+}
+
+.sicu_home_header .phone-image img{
+    width: 85%;
 }
 
 @media (max-width: 600px) {    
 
-    .tripit_header .header-buttons img {
+    .sicu_header .header-buttons img {
         margin-left: 10px;
         margin-bottom: 10px;
     }
